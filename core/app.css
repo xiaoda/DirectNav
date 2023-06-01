@@ -1,4 +1,26 @@
 #app {
-  font-family: "Microsoft YaHei";
+  width: 750px;
+  margin: 0 auto;
   font-size: 18px;
+  font-family: "Microsoft YaHei";
+
+  .title {
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .item {
+    margin: 10px 0;
+  }
+
+  .item-name {
+    color: #aaa;
+    cursor: pointer;
+  }
+
+  .item-text {
+    color: black;
+    cursor: default;
+  }
 }

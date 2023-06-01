@@ -1,9 +1,10 @@
 const baseUrl = 'https://hblive.club'
 
-export default const data = {
+const data = {
+  title: '安畅网络',
   nav: [{
     name: '云管理服务',
-    text: '安畅提供哪些{name}？',
+    text: '安畅提供哪些云管理服务？',
     children: [{
       name: '云战略规划',
       text: '面向云、应用、基础设计及架构的咨询规划',
@@ -23,7 +24,7 @@ export default const data = {
     }]
   }, {
     name: '解决方案',
-    text: '安畅有哪些{name}？',
+    text: '安畅提供哪些解决方案？',
     children: [{
       name: '云安全解决方案',
       text: '通过云安全解决方案为基础设施及业务应用提供稳定而安全的保障',
@@ -45,7 +46,7 @@ export default const data = {
         link: getUrl('/cloudSecuritySolution/mss')
       }]
     }, {
-      name: '应用现代化',
+      name: '应用现代化解决方案',
       text: '通过应用现代化能最大化云计算的经济价值，提升业务敏捷性和创新性。',
       children: [{
         name: '低代码解决方案',
@@ -85,7 +86,7 @@ export default const data = {
         link: getUrl('/industrySolutions/government')
       }]
     }, {
-      name: '数据智能',
+      name: '数据智能解决方案',
       text: '沉淀企业数字资产，构建智能化的数据决策平台，实现上云用数赋智。',
       children: [{
         name: '构建数据中台',
@@ -109,7 +110,7 @@ export default const data = {
         link: getUrl('/dataIntelligence/businessIntelligence')
       }]
     }, {
-      name: '行业云',
+      name: '行业云解决方案',
       text: '通过“智能化平台+技术专家团队+服务管理体系”三位一体的服务能力',
       children: [{
         name: '集团云运维',
@@ -119,7 +120,7 @@ export default const data = {
     }]
   }, {
     name: '平台工具',
-    text: '安畅有哪些{name}？',
+    text: '安畅有哪些平台工具？',
     children: [{
       name: '多云管理平台-SmartOps',
       text: '基于自动化技术和管理服务帮助用户快速上云、合理使用云资源、简化云管理',
@@ -158,7 +159,7 @@ export default const data = {
     }]
   }, {
     name: '客户案例',
-    text: '安畅有哪些{name}？',
+    text: '安畅有哪些客户案例？',
     children: [{
       name: '生物制药',
       text: '数字化手段助力生物制药持续创新',
@@ -197,6 +198,8 @@ export default const data = {
     }]
   }]
 }
+
+export default data
 
 function getUrl (path) {
   return `${baseUrl}${path}`
