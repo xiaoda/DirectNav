@@ -1,26 +1,43 @@
 #app {
+  --fontSize: 16px;
+
   width: 750px;
   margin: 0 auto;
-  font-size: 18px;
+  font-size: var(--fontSize);
   font-family: "Microsoft YaHei";
 
   .title {
     margin: 20px 0;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
   }
 
-  .item {
-    margin: 10px 0;
-  }
-
-  .item-name {
-    color: #aaa;
+  .search-icon {
     cursor: pointer;
   }
 
-  .item-text {
-    color: black;
-    cursor: default;
+  .item {
+    margin: 8px 0;
+    
+    .item {
+      margin-left: calc(var(--fontSize) * 1);
+    }
+
+    .item-name {
+      display: inline-block;
+      color: #aaa;
+      cursor: pointer;
+    }
+  
+    .item-text {
+      display: inline-block;
+      color: black;
+      cursor: default;
+    }
+
+    .item-link {
+      color: green;
+      text-decoration: none;
+    }
   }
 }

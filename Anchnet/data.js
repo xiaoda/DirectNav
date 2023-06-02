@@ -1,4 +1,4 @@
-const baseUrl = 'https://hblive.club'
+const baseUrl = 'https://www.hblive.club'
 
 const data = {
   title: '安畅网络',
@@ -62,7 +62,7 @@ const data = {
         link: getUrl('/appModernization/customization')
       }, {
         name: 'DevOps咨询实施',
-        text: '提供培训、流程和工具适配、敏捷和工程实践落地辅导',
+        text: '提供DevOps培训、流程和工具适配、敏捷和工程实践落地辅导',
         link: getUrl('/appModernization/devOps')
       }]
     }, {
@@ -123,19 +123,19 @@ const data = {
     text: '安畅有哪些平台工具？',
     children: [{
       name: '多云管理平台-SmartOps',
-      text: '基于自动化技术和管理服务帮助用户快速上云、合理使用云资源、简化云管理',
+      text: 'SmartOps 基于自动化技术和管理服务帮助用户快速上云、合理使用云资源、简化云管理',
       link: getUrl('/platformTools/smartOps')
     }, {
       name: '云迁移平台-SmartAnt',
-      text: '快速将业务迁移上云，摆脱繁琐的迁移上云过程。',
+      text: 'SmartAnt 快速将业务迁移上云，摆脱繁琐的迁移上云过程。',
       link: getUrl('/platformTools/smartAnt')
     }, {
       name: '云成本优化平台-CCOP',
-      text: '结合业务、财务以及技术精细化运营管理云资源，优化组织的云使用成本。',
+      text: 'CCOP 结合业务、财务以及技术精细化运营管理云资源，优化组织的云使用成本。',
       link: getUrl('/platformTools/finOps')
     }, {
       name: '混合云原生应用平台-HCNP',
-      text: '为企业应用提供全生命周期管理、数据化运营、全方位监控和服务治理',
+      text: 'HCNP 为企业应用提供全生命周期管理、数据化运营、全方位监控和服务治理',
       link: getUrl('/platformTools/hcnp')
     }]
   }, {
