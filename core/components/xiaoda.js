@@ -1,7 +1,11 @@
 export default {
   name: 'Main',
   props: {
-    nav: [Object]
+    nav: [Object],
+    depth: {
+      type: Number,
+      default: 0
+    }
   },
   data() {
     return {
