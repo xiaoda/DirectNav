@@ -50,7 +50,7 @@ const data = {
       text: '通过应用现代化能最大化云计算的经济价值，提升业务敏捷性和创新性。',
       children: [{
         name: '低代码解决方案',
-        text: '主流平台选型、应用开发、使用培训、私有化实施及运维',
+        text: '主流低代码平台选型、应用开发、使用培训、私有化实施及运维',
         link: getUrl('/appModernization/lowCode')
       }, {
         name: '应用现代化改造',
@@ -102,7 +102,7 @@ const data = {
         link: getUrl('/dataIntelligence/bigDataMigration')
       }, {
         name: '智能RPA',
-        text: '业务流程分析、方案设计、选型、功能开发交付',
+        text: 'RPA业务流程分析、方案设计、选型、功能开发交付',
         link: getUrl('/dataIntelligence/intelligenceRpa')
       }, {
         name: '数据可视化',
@@ -123,19 +123,19 @@ const data = {
     text: '安畅有哪些平台工具？',
     children: [{
       name: '多云管理平台-SmartOps',
-      text: 'SmartOps 基于自动化技术和管理服务帮助用户快速上云、合理使用云资源、简化云管理',
+      text: 'SmartOps基于自动化技术和管理服务帮助用户快速上云、合理使用云资源、简化云管理',
       link: getUrl('/platformTools/smartOps')
     }, {
       name: '云迁移平台-SmartAnt',
-      text: 'SmartAnt 快速将业务迁移上云，摆脱繁琐的迁移上云过程。',
+      text: 'SmartAnt快速将业务迁移上云，摆脱繁琐的迁移上云过程。',
       link: getUrl('/platformTools/smartAnt')
     }, {
       name: '云成本优化平台-CCOP',
-      text: 'CCOP 结合业务、财务以及技术精细化运营管理云资源，优化组织的云使用成本。',
+      text: 'CCOP结合业务、财务以及技术精细化运营管理云资源，优化组织的云使用成本。',
       link: getUrl('/platformTools/finOps')
     }, {
       name: '混合云原生应用平台-HCNP',
-      text: 'HCNP 为企业应用提供全生命周期管理、数据化运营、全方位监控和服务治理',
+      text: 'HCNP为企业应用提供全生命周期管理、数据化运营、全方位监控和服务治理',
       link: getUrl('/platformTools/hcnp')
     }]
   }, {

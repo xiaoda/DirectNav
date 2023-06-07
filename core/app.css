@@ -12,32 +12,59 @@
     font-weight: bold;
   }
 
-  .search-icon {
-    cursor: pointer;
+  .search-component {
+    display: inline-block;
+
+    .search-icon {
+      cursor: pointer;
+    }
+
+    .search-input {
+      width: 150px;
+      line-height: 1.5em;
+      font-size: var(--fontSize);
+      vertical-align: middle;
+    }
+
+    .search-cancel {
+      cursor: pointer;
+    }
   }
 
-  .item {
+  .nav-item {
     margin: 8px 0;
     
-    .item {
+    .nav-item {
       margin-left: calc(var(--fontSize) * 1);
     }
 
-    .item-name {
+    .nav-name {
       display: inline-block;
       color: #aaa;
       cursor: pointer;
     }
   
-    .item-text {
+    .nav-text {
       display: inline-block;
       color: black;
       cursor: default;
     }
 
-    .item-link {
-      color: green;
+    .nav-unfold {
+      display: inline-block;
+      color: black;
+      cursor: pointer;
+    }
+
+    .nav-link {
       text-decoration: none;
     }
+  }
+}
+
+@media (pointer: none), (pointer: coarse) {
+  #app {
+    width: 60%;
+    min-width: 375px;
   }
 }
